@@ -1,5 +1,5 @@
 from __future__ import print_function
-from cv2 import cv2 # opencv-python
+from cv2 import cv2 # pip install opencv-python
 import argparse
 
 
