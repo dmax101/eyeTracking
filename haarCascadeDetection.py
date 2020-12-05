@@ -1,5 +1,5 @@
 from __future__ import print_function
-from cv2 import cv2
+from cv2 import cv2 # opencv-python
 import argparse
 
 
@@ -24,7 +24,7 @@ def detectAndDisplay(frame):
 
 def onPressed1(state):
   if state == 1:
-    ret, frame = cap.read()
+    ret, frame = cap.read() # Esse aviso não conseguimos resolver
     frame = detectAndDisplay(frame)
     cv2.imwrite("saved_image.png", frame)
     print('Frame salvo com sucesso!')
@@ -38,8 +38,8 @@ def onPressed2(state):
         cv2.imshow("Frame salvo", img)        
 
 parser = argparse.ArgumentParser(description='Code for Cascade Classifier tutorial.')
-parser.add_argument('--face_cascade', help='Path to face cascade.', default='C:/Users/rairo/Downloads/opencv/build/etc/haarcascades/haarcascade_frontalface_alt.xml')
-parser.add_argument('--eyes_cascade', help='Path to eyes cascade.', default='C:/Users/rairo/Downloads/opencv/build/etc/haarcascades/haarcascade_eye_tree_eyeglasses.xml')
+parser.add_argument('--face_cascade', help='Path to face cascade.', default='haarcascades/haarcascade_frontalface_alt.xml')
+parser.add_argument('--eyes_cascade', help='Path to eyes cascade.', default='haarcascades/haarcascade_eye_tree_eyeglasses.xml')
 parser.add_argument('--camera', help='Camera divide number.', type=int, default=0)
 args = parser.parse_args()
 face_cascade_name = args.face_cascade
