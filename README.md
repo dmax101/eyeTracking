@@ -4,9 +4,9 @@
 |Nome|Matrícula|Curso|
 |---------|---------|---------|
 |Danilo Ribeiro|1411|Eng. Computação|
-|Gustavo|XXXX|Eng. Computação|
-|Rafaela|XXXX|Eng. Computação|
-|Rairon|XXXX|Eng. Computação|
+|Gustavo Simões|1470|Eng. Computação|
+|Rafaela Ferraz|1461|Eng. Computação|
+|Rairon Ferreira|1519|Eng. Computação|
 
 ---
 ## Introdução
