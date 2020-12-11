@@ -50,7 +50,7 @@ Após a execução a câmera irá aparecer em uma janela e se a aplicação iden
 
 ![Janela da Aplicação](/assets/frame.png)
 
-Ps.: Para uma melhor detecção, o ambiente deve estar bem iluminado.
+Ps.: Para uma melhor detecção, o ambiente deverá estar bem iluminado.
 
 Para salvar uma captura do frame clique em "Salvar...me" e um arquivo será criado com o nome "saved_image.png"
 
