@@ -24,7 +24,9 @@ Extraia o conteúdo em uma pasta.
 
 Se preferir você pode clonar o projeto com o git, caso tenha instalado em sua máquina executando o comando:
 
-`$ git clone https://github.com/dmax101/eyeTracking.git`
+```
+$ git clone https://github.com/dmax101/eyeTracking.git
+```
 
 Este comando irá criar uma pasta com o nome do projeto "eyeTracking".
 
@@ -32,13 +34,25 @@ Este comando irá criar uma pasta com o nome do projeto "eyeTracking".
 ## Instruções para a execução
 Este projeto foi feito em Python e utiliza a biblioteca OpenCV que precisa estar instalada. Para isso execute o seguinte comando no terminal:
 
-`$ pip install opencv-python`
+```
+$ pip install opencv-python
+```
 
 Pronto. Agora o projeto está preparado para ser executado. Execute o seguinte comando para iniciar:
 
-`$ python haarCascadeDetection.py`
+```
+$ python haarCascadeDetection.py
+```
 
 ---
 ## Programa
 Após a execução a câmera irá aparecer em uma janela e se a aplicação identificar um rosto e os olhos criará um círculo conforme a imagem a seguir:
-![Janela da Aplicação](/assets/saved_image.png)
+
+![Janela da Aplicação](/assets/frame.png)
+
+Ps.: Para uma melhor detecção, o ambiente deve estar bem iluminado.
+
+Para salvar uma captura do frame clique em "Salvar...me" e um arquivo será criado com o nome "saved_image.png"
+
+### Encerramento da aplicação
+Para encerrar a aplicação precione `ctrl + c` no terminal.
