@@ -20,7 +20,7 @@ def detectAndDisplay(frame):
         for (x2,y2,w2,h2) in eyes:
             eye_center = (x + x2 + w2//2, y + y2 + h2//2)
             radius = int(round((w2 + h2)*0.25))
-            # Circulos vermelhos
+            # Circulos azuis
             frame = cv2.circle(frame, eye_center, radius, (255, 0, 0 ), 4)
 
     # Frame invertido horizontalmente por questão de estética =)       
