@@ -202,8 +202,6 @@ def compress_and_decompress():
     plt.subplot(122)
     plt.imshow(retrieved_img.astype(np.uint8), interpolation='none')
     plt.show()
-    cv2.imwrite("saved_image_compress.png", transformations)
-    cv2.imwrite("saved_image_decompress.png", retrieved_img)
 
 if __name__ == '__main__':
     compress_and_decompress()
