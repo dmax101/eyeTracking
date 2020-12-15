@@ -26,12 +26,12 @@ def onPressed1(state):
   if state == 1:
     ret, frame = cap.read() # Esse aviso não conseguimos resolver
     frame = detectAndDisplay(frame)
-    cv2.imwrite("saved_image.jpeg", frame)
+    cv2.imwrite("saved_image.png", frame)
     print('Frame salvo com sucesso!')
 
 def onPressed2(state):
   if state == 1:
-    img = cv2.imread("saved_image.jpeg")
+    img = cv2.imread("saved_image.png")
     if img is None:
         print('Não foi possível ler o frame.')
     else:
