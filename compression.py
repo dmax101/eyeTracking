@@ -157,7 +157,7 @@ def decompress_rgb(transformations, source_size, destination_size, step, nb_iter
 def convert_png_to_gif():
     im = Image.open('saved_image.png')
     assert im.mode == 'P'
-    im .save('saved_image.gif')
+    im.save('saved_image.gif')
 
 # Plot
 
