@@ -13,6 +13,8 @@
 
 Este trabalho tem o intúito de apresentar alguns dos conteúdos estudados nesta disciplina durante este semestre, assim como, uma solução para a identificação de olhos (*eye tracking*) baseado em vídeo.
 
+Clique [aqui](https://www.youtube.com/watch?v=SEVcy4dxWTY) para acessar o vídeo da apresentação do projeto.
+
 ## Instalação
 
 Para a instalação faça o download do arquivo zip [aqui](https://github.com/dmax101/eyeTracking.git).
@@ -37,6 +39,12 @@ Este projeto foi feito em Python e utiliza a biblioteca OpenCV que precisa estar
 ```
 $ pip install opencv-python
 ```
+Será necessário instalar as bibliotecas Scipy e Matplotlib
+
+```
+$ pip install matplotlib
+$ pip install scipy
+```
 
 Pronto. Agora o projeto está preparado para ser executado. Execute o seguinte comando para iniciar:
 
@@ -56,3 +64,12 @@ Para salvar uma captura do frame clique em "Salvar...me" e um arquivo será cria
 
 ### Encerramento da aplicação
 Para encerrar a aplicação precione `ctrl + c` no terminal.
+
+---
+
+## Compressão e descompressão de imagem
+Com o arquivo "saved_image.png" gerado anteriormente pelo eyeTraking, precisamos rodar o script de compressão e descompressão. Digite o comando para iniciar:
+
+```
+$ python compression.py
+```
